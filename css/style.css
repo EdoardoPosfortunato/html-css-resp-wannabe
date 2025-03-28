@@ -143,9 +143,36 @@ img {
 }
 
 @media screen and (max-width: 480px){
-    .container{
-     max-width: 768px;
+    .row{
+
+     display: flex;
      width: 100%;
+     flex-wrap: wrap;
+
+     .col{
+        width: 100%;
+      }
     }
+
+
+     .row .col{
+        width: 100%;
+      }
+
+    .why-us{
+        margin: 0;
+        padding: 3em 0;
+        background-color: black;
+    }
+
+    .steps{
+        margin: 0;
+    }
+
+    .lessons{
+        padding-bottom: 3em;
+    }
+
+    
      
  }
